@@ -1,0 +1,23 @@
+#all {
+    background: url("../images/bg.jpg") no-repeat;
+    width: 1368px;
+    height: 772px;
+    margin: 0 auto;
+}
+
+.rm {
+    margin-right: 4px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.logo {
+    font: "Myriad Pro Regular";
+    font-size: 22px;
+    font-style: normal;
+    margin-top: 20px;
+    padding-left: 30px;
+}
