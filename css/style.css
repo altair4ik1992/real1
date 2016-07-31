@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 #all {
     background: url("../images/bg.jpg") no-repeat;
     width: 1368px;
@@ -5,19 +10,125 @@
     margin: 0 auto;
 }
 
-.rm {
-    margin-right: 4px;
+a {
+    text-decoration: none !important;
+    color: #333333 !important;
+    font-family: "Times New Roman";
+    width: 100% !important;
+}
+
+.header{
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+.logo-line{
+    display: inline;
 }
 
 .logo a {
-    text-decoration: none;
-    color: #333333;
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
-.logo {
-    font: "Myriad Pro Regular";
-    font-size: 22px;
-    font-style: normal;
-    margin-top: 20px;
-    padding-left: 30px;
+.menu{
+    font-size: 18px;
+    padding-left: 50px;
+}
+
+.menu ul{
+    display: inline;
+}
+
+.menu ul li{
+    display: inline;
+    margin-left: 15px;
+}
+
+.menu ul li:first-child{
+    margin-left: 0px;
+}
+
+.lang-menu{
+    padding-left: 155px;
+}
+
+.lang-menu ul li{
+    display: inline;
+}
+
+.lang-menu ul{
+    display: inline;
+}
+
+
+.active-lang{
+    outline: 1px solid #b4b3b0;
+    padding: 5px 5px;
+}
+
+.lang-menu ul li:hover{
+    outline: 1px solid #b4b3b0;
+    padding: 5px 5px;
+}
+
+.lang-menu ul li{
+    margin-left: -3px;
+    padding: 5px 5px;
+}
+
+.offtop-menu ul li{
+    display: inline;
+    margin-left: 12px;
+}
+
+.offtop-menu ul li:first-child{
+    margin-left: 0px;
+}
+
+.offtop-menu ul{
+    display: inline;
+}
+
+.offtop-menu{
+    margin-left: 90px;
+}
+
+.midle{
+    padding-top: 42px;
+    margin-left: 30px;
+}
+
+.content-all{
+    width: 617px;
+}
+
+.content-text p{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.content-galery p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.content-galery{
+    padding-top: 10px;
+}
+
+.content-galery p{
+    margin-bottom: 0px;
+}
+
+.post-content-galery{
+    padding-top: 7px;
+}
+
+.post-galery{
+
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 15px;
 }
